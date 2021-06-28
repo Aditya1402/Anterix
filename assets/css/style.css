@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 72px;
 }
 
 .scrolled-offset {
@@ -286,6 +286,15 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: none;
   font-weight: 500;
   color: #ffff;
+}
+@media (min-width: 320px) and (max-width:768.98px){
+  .navbar .dropdown ul a {
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: none;
+    font-weight: 500;
+    color: #0000
+  }
 }
 
 .navbar .dropdown ul a i {
