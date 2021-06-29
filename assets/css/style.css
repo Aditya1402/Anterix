@@ -1855,4 +1855,13 @@ section {
     width: 30%;
     height: 75%;
   }
+  .vit img{
+    width:20%;
+    /* height:75%; */
+  }
+}
+
+.vit img{
+  width:10%;
+  height:75%;
 }
