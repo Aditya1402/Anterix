@@ -23,7 +23,8 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 <!----animations----->
@@ -44,6 +45,12 @@
 	  margin: auto;
 	}
 	
+	.countdown-timer{
+		font-style: bold;
+	}
+
+	
+
 	/* Caption text */
 	.text {
 	  color: #f2f2f2;
@@ -111,18 +118,15 @@
 <body>
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" style="background-image:url('assets/img/satellite-4269342.jpg'); background-position: center; background-rekground-size: cover; background-color: black;">
-    
+  
+  <section id="hero" style="background-image:url('assets/img/satellite-4269342.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover; background-color: black;">
     <div class="hero-container " >
-
-      <h1>Club AnteriX</h1>
+      <h1>Club ANTERiX</h1>
       <h2> Enabling students to gain knowledge and experience in the field of
 		Aviation and Space technologies.</h2>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSd5ikkz8nJsniQ3o2GP3IhMAw1sncRVzQ6YcYk6PQrzQFc7DQ/formrestricted" target="_blank" class="btn-get-started scrollto" style="background-color: orange; color: white;">Join Us</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXVxM1is1aaT3-sWipmdiAgaZEe4URXykTEJELJVDXROWcaA/viewform" class="btn-get-started scrollto" target="_blank">Join Us</a>
     </div>
-
   </section><!-- End Hero -->
-
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center ">
 
@@ -135,7 +139,7 @@
           <li><a class="nav-link scrollto active" href="about_us.html">About Us</a></li>
        
                 
-          <li class="dropdown "><a class="nav-link  scrollto active "><span>Departments</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown "><a class="nav-link  scrollto "><span>Departments</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li ><a  href="Tech_dept.html">Technical Departments</a></li>
               <li ><a  href="Non_Tech_Dept.html">Non Technical Departments</a></li>
@@ -171,74 +175,19 @@
         <div class="section-title" style="color: white;">
           <h2>Our Mission</h2>
         </div>
-        <div class="row content">
-            <div class="col-12">
-                <!-- ======= Testimonials Section ======= -->
-                <section id="testimonials" class="testimonials section-bg" style="background-color: black;">
-                  <div class="container">
-            
-                    <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100" >
-                      <div class="swiper-wrapper">
-            
-                       
-            
-                        <div class="	swiper-slide">
-                          <div class="testimonial-item" >
-                            
-                            <img src="assets\img\Image-1.jpg" style="height: 300px; width: 400px; object-fit: cover;" alt="">
-                           
-                          </div>
-                        </div>
-  
-  
-                        <div class="	swiper-slide">
-                          <div class="testimonial-item" >
-                            
-                            <img src="assets\img\Image-2.jpg" style="height: 300px; width: 400px; object-fit: cover;" alt="300x400 (h*w)">
-                           
-                          </div>
-                        </div>
-                      
-  
-  
-  
-                        <div class="	swiper-slide">
-                          <div class="testimonial-item" >
-                            
-                            <img src="assets\img\Image-3.jpg" style="height: 300px; width: 400px; object-fit: cover;" alt="">
-                           
-                          </div>
-                        </div>
-                      
-  
-  
-                      
-                      
-                      
-                      
-                      
-                      </div>
-                      <div class="swiper-pagination"></div>
-                    </div>
-            
-                  </div>
-                </section><!-- End Testimonials Section -->
-            
-            </div>
-          
-            <div class="col-12 pt-4 pt-lg-0" style="color: white; font-size: 1.1em; ">
-              <p style="text-align: center;">
-                  Club ANTERiX is a group of undergraduate students from VIT Bhopal
-                  University, founded in the year 2021. ANTERiX is VIT Bhopal’s first ever aviation club
-                  which will be dealing with the field of aviation and space technology.				
-              </p>
-  
-            </div>
+        
+         <div class="col-12 pt-4 pt-lg-0" style="color: white; font-size: 1.1em;">
+           
+            <p style="text-align: center;">
+				Club ANTERiX is a group of undergraduate students from VIT Bhopal
+				University, founded in the year 2021. ANTERiX is VIT Bhopal’s first ever aviation club
+				which will be dealing with the field of aviation and space technology.				
+            </p>
+
           </div>
-   
         </div>
 
-
+      </div>
     </section><!-- End Our Mission Section -->
 
 <!-----=========Coordinators section=============---->
@@ -281,8 +230,9 @@
 	  
 			  <div class="text-center">
 				<script src="https://cdn.logwork.com/widget/countdown.js"></script>
-        <a href="https://logwork.com/countdown-pjox" class="countdown-timer" data-style="circles" data-timezone="Asia/Kolkata" data-date="2021-06-25 17:29">Event Countdown</a>
-				<a class="cta-btn" style="background-color: white; color: black;" href="https://docs.google.com/forms/d/e/1FAIpQLSd5ikkz8nJsniQ3o2GP3IhMAw1sncRVzQ6YcYk6PQrzQFc7DQ/formrestricted">Register Now</a>
+         <a href="https://logwork.com/countdown-p3cp" class="countdown-timer" data-style="circles" data-timezone="Asia/Kolkata" data-date="2021-07-03 23:16" data-background="#565656" ><strong>My Countdown</strong></a>
+
+				<a class="cta-btn" style="background-color: white; color: black;" href="https://docs.google.com/forms/d/e/1FAIpQLSdXVxM1is1aaT3-sWipmdiAgaZEe4URXykTEJELJVDXROWcaA/viewform" target="_blank">Register Now</a>
 			  </div>
 	  
 			</div>
@@ -294,7 +244,7 @@
 	<br>
 
 
-
+<!-----=========Footer=============---->
 
 	 <footer id="footer" style="background-image: url('assets/img/earth-11595_1920.jpg');" >
 
@@ -332,7 +282,7 @@
 	
 			  <div class="col-12">
           VIT Bhopal University, located at the Bhopal-Indore highway, an arterial street connecting the two most lovely and cleanest towns of India is a place where information meets motivation. 
-          VIT Bhopal University imparts futuristic technical education and inculcate high patterns of discipline through dedicated faculty, who set global standards, making students technologically advanced and ethically strong, who in turn enhance the quality of life of the human race.       
+                 
 			  </div>
 			</div>
 
