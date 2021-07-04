@@ -1924,3 +1924,11 @@ section {
   );
   border-radius:3px;
 }
+
+.insta-post{
+  margin-top:10%;
+  margin-bottom: 10%;
+}
+.crt-carousel-pane{
+  width: 380px;
+}
