@@ -113,44 +113,110 @@
     </div>
   </section><!-- End Hero -->
 
- <!-- ======= Header ======= -->
- <header id="header" class="d-flex align-items-center ">
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center ">
+    <div class="container-fluid d-flex align-items-center justify-content-lg-between">
 
-  <div class="container-fluid d-flex align-items-center justify-content-lg-between">
-   <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="Logo_w_Shadow.png" ></a></h1>
-   <nav id="navbar" class="navbar order-last order-lg-0">
-      <ul>
-        <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-        
-        <li><a class="nav-link scrollto " href="about_us.html">About Us</a></li>
-     
-              
-        <li class="dropdown "><a class="nav-link  scrollto "><span>Departments</span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li ><a  href="Tech_dept.html">Technical Departments</a></li>
-            <li ><a  href="Non_Tech_Dept.html">Non Technical Departments</a></li>
-          </ul>
-        </li>
+      <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="assets\img\anterix_final.png" ></a></h1>
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto " href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="">About Us</a></li>
+          <li class="dropdown "><a href="#" class="nav-link  scrollto "><span>Departments</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li ><a  href="Tech_dept.html">Technical Departments</a></li>
+              <li ><a  href="Non_Tech_Dept.html">Non Technical Departments</a></li>
+            </ul>
+          </li>
        
-        
-        <li><a class="nav-link scrollto " href="contact.html">Contact Us</a></li>
-        <li><a class="nav-link scrollto" target="_blank" href="https://vitbhopal.ac.in/">VIT BHOPAL</a></li>
-      </ul>
+          <li><a class="nav-link scrollto active" href="contact.html">Contact Us</a></li>
+          
+          <li><a class="nav-link scrollto" target="_blank" href="https://vitbhopal.ac.in/">VIT BHOPAL</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
 
-      <i class="bi bi-list mobile-nav-toggle"></i>
-    </nav><!-- .navbar -->
+      <div class="header-social-links d-flex align-items-center">
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
 
-    <div class="header-social-links d-flex align-items-center">
-      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-  <a href="#" class="twitter"><i class="bi bi-twitter"></i></i></a>
     </div>
-
-  </div>
-</header><!-- End Header -->
+  </header><!-- End Header -->
 
   <main id="main">
+ <section id="contact" class="contact" style = "background-color: black;">
+      <div class="container">
 
+        <div class="section-title">
+          <h2 style="color: white;">Contact</h2>
+          <p style="color: white;">Get in touch with us if you have any query, please feel free to drop us a line and we’ll respond you as soon as we can.</p>
+          <p style="color: white;">We’ve got everything covered for your needs.</p>
+        </div>
+
+        <div>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.542678196289!2d76.8502178055007!3d23.077222049969297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397ce9ceaaaaaaab%3A0xa224b6b82b421f83!2sVellore%20Institute%20of%20Technology%20-%20VIT%20Bhopal!5e0!3m2!1sen!2sin!4v1623784696223!5m2!1sen!2sin" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info" style="background-color: black;">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4 style="color: white;">Location:</h4>
+                <p style="color: #ff914d;">VIT BHOPAL UNIVERSITY, Bhopal-Indore Highway
+Kothrikalan, Sehore
+Madhya Pradesh – 466114</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4 style="color: white;">Email:</h4>
+                <p style="color: #ff914d;"><a href="mailto:anterix.vitb@gmail.com">anterix.vitb@gmail.com</a></p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4 style="color: white;" >Call:</h4>
+                <p style="color: #ff914d"><a href="tel:+91 87770 87148">+91 87770 87148</a></p>
+                 <p style="color: #ff914d"><a href="tel:+91 79747 69929">+91 79747 69929</a></p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0" style="background-color: black;">
+
+            <div class="contact-form">
+            <form action="./config.php" method="post"  style="background-color: black;">
+              <div class="row" > 
+                <div class="col-md-6 form-group" >
+                  <input type="text" id="name" name="name" class="form-control" id="name" placeholder="Your Name" required style="background-color: rgb(233, 233, 233);">
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" id="email" class="form-control" name="email" id="email" placeholder="Your Email" required style="background-color: rgb(233, 233, 233);">
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" id="subject" class="form-control" name="subject" id="subject" placeholder="Subject" required style="background-color: rgb(233, 233, 233);">
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Message" required style="background-color: rgb(233, 233, 233);"></textarea>
+              </div>
+              <div class="my-3"></div>
+                <div class="sent-message" id="send">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button onclick="send()" type="submit">Send Message</button></div>
+            </form>
+          </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
 
 
     <!-- ======= Frequently Asked Questions Section ======= -->
@@ -215,79 +281,7 @@
       </div>
     </section><!-- End Frequently Asked Questions Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact" style = "background-color: black;">
-      <div class="container">
-
-        <div class="section-title">
-          <h2 style="color: white;">Contact</h2>
-          <p style="color: white;">Get in touch with us if you have any query, please feel free to drop us a line and we’ll respond you as soon as we can.</p>
-          <p style="color: white;">We’ve got everything covered for your needs.</p>
-        </div>
-
-        <div>
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.542678196289!2d76.8502178055007!3d23.077222049969297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397ce9ceaaaaaaab%3A0xa224b6b82b421f83!2sVellore%20Institute%20of%20Technology%20-%20VIT%20Bhopal!5e0!3m2!1sen!2sin!4v1623784696223!5m2!1sen!2sin" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div class="row mt-5">
-
-          <div class="col-lg-4">
-            <div class="info" style="background-color: black;">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4 style="color: white;">Location:</h4>
-                <p style="color: #ff914d;">VIT BHOPAL UNIVERSITY, Bhopal-Indore Highway
-Kothrikalan, Sehore
-Madhya Pradesh – 466114</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4 style="color: white;">Email:</h4>
-                <p style="color: #ff914d;">anterix.vitb@gmail.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4 style="color: white;" >Call:</h4>
-                <p style="color: #ff914d">+91 87770 87148</p>
-                 <p style="color: #ff914d">+91 79747 69929</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0" style="background-color: black;">
-
-            <div class="contact-form">
-            <form action="./config.php" method="post"  style="background-color: black;">
-              <div class="row" > 
-                <div class="col-md-6 form-group" >
-                  <input type="text" id="name" name="name" class="form-control" id="name" placeholder="Your Name" required style="background-color: rgb(233, 233, 233);">
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" id="email" class="form-control" name="email" id="email" placeholder="Your Email" required style="background-color: rgb(233, 233, 233);">
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" id="subject" class="form-control" name="subject" id="subject" placeholder="Subject" required style="background-color: rgb(233, 233, 233);">
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Message" required style="background-color: rgb(233, 233, 233);"></textarea>
-              </div>
-              <div class="my-3"></div>
-                <div class="sent-message" id="send">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button onclick="send()" type="submit">Send Message</button></div>
-            </form>
-          </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
+ 
 
   </main><!-- End #main -->
 
