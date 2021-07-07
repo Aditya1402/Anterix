@@ -11,7 +11,7 @@
 
   <!-- Favicons -->
   <link href="favicon.ico" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="favicon.ico" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -23,6 +23,8 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/counter/time.js" rel="stylesheet">
+  <script src="assets/counter/time.scss"></script>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -65,21 +67,6 @@
     font-size: 15px;
   }
 
-  #footerLogo{
-	width: 20%;
-	 height: 10%;
-	  object-fit: cover;
-}
-
-#footervit{
-	width: 10%;
-	 height: 10%;
-	  object-fit: cover;
-}
-#depart{
-  color: white;
-}
-
 	/* The dots/bullets/indicators */
 	.dot {
 	  height: 15px;
@@ -118,36 +105,56 @@
 	  .text {font-size: 11px}
 	}
 
-  @media (max-width: 1000px) {
-
-#slideBut{
-  display: none;
-}
-#slideshowImage {
-          height: 20%;
-          object-fit: cover;
-     }
-
-     #depart{
-color: black;
+  #slideshowImage {
+    height: 440px;
+    object-fit: cover;
 }
 
-   #footerLogo {
-  width: 60%;
- height: 10%;
-  object-fit: cover;
-   }
+#footerLogo{
+	width: 20%;
+	 height: 10%;
+	  object-fit: cover;
+}
 
-   #footervit {
-  width: 30%;
- height: 10%;
-  object-fit: cover;
-   }
+#footervit{
+	width: 10%;
+	 height: 10%;
+	  object-fit: cover;
+}
+#depart{
+  color: white;
+}
 
-   #drop{
-     color: black;
-   }
-  }
+@media (max-width: 1000px) {
+
+	#slideBut{
+		display: none;
+	}
+  #slideshowImage {
+            height: 20%;
+            object-fit: cover;
+       }
+
+       #depart{
+  color: black;
+}
+
+	   #footerLogo {
+		width: 60%;
+	 height: 10%;
+	  object-fit: cover;
+	   }
+
+	   #footervit {
+		width: 30%;
+	 height: 10%;
+	  object-fit: cover;
+	   }
+
+	   #drop{
+		   color: black;
+	   }
+}
 
 	</style>
 </head>
