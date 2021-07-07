@@ -16,8 +16,6 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <link rel="stylesheet" type="text/css" href="//cdn.curator.io/1.3/css/curator.css"/>
-
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -30,8 +28,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <script src="jquery-3.5.1.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
 
@@ -87,8 +83,6 @@
 </head>
 
 <body style="background-color: black;">
-	<div id="progressbar"></div>
-	<div id="scrollPath"></div>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" style="background-image: url('assets/img/satellite-4269342.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;" >
@@ -99,41 +93,40 @@
     </div>
   </section><!-- End Hero -->
 
-    <!-- ======= Header ======= -->
-	<header id="header" class="d-flex align-items-center ">
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center ">
+    <div class="container-fluid d-flex align-items-center justify-content-lg-between">
 
-		<div class="container-fluid d-flex align-items-center justify-content-lg-between">
-		 <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="Logo_w_Shadow.png" ></a></h1>
-		 <nav id="navbar" class="navbar order-last order-lg-0">
-			<ul>
-			  <li><a class="nav-link scrollto " href="index.html">Home</a></li>
-			  
-			  <li><a class="nav-link scrollto active" href="about_us.html">About Us</a></li>
-		   
-					
-			  <li class="dropdown "><a class="nav-link  scrollto "><span>Departments</span> <i class="bi bi-chevron-down"></i></a>
-				<ul>
-				  <li ><a  href="Tech_dept.html">Technical Departments</a></li>
-				  <li ><a  href="Non_Tech_Dept.html">Non Technical Departments</a></li>
-				</ul>
-			  </li>
-			 
-			  
-			  <li><a class="nav-link scrollto " href="contact.html">Contact Us</a></li>
-			  <li><a class="nav-link scrollto" target="_blank" href="https://vitbhopal.ac.in/">VIT BHOPAL</a></li>
-			</ul>
-	
-			<i class="bi bi-list mobile-nav-toggle"></i>
-		  </nav><!-- .navbar -->
-	
-		  <div class="header-social-links d-flex align-items-center">
-			<a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-			<a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-			<a href="#" class="twitter"><i class="bi bi-twitter"></i></i></a>
-		  </div>
-	
-		</div>
-	  </header><!-- End Header -->
+
+
+      <a href="index.html" class="logo me-auto me-lg-0" ><div style="width: 70%; height: 20%; object-fit: cover;"><img src="Logo_w_Shadow.png"   alt="Anterix Logo" class="img-fluid"></div></a>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+            <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="about_us.html">About Us</a></li>
+       
+          <li><a class="nav-link scrollto " href="contact.html">Contact Us</a></li>
+          <li class="dropdown"><a style="color: white;"><span>Departments</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li ><a href="Tech_dept.html" id="drop">Technical Departments</a></li>
+              <li ><a href="Non_Tech_Dept.html" id="drop">Non Technical Departments</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" target="_blank" href="https://vitbhopal.ac.in/">VIT BHOPAL</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="header-social-links d-flex align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
   <main id="main">
 
     <!-- ======= About Section ======= -->
@@ -246,15 +239,6 @@
         </section><!-- End Cta Section -->
   </main><!-- End #main -->
 
-  <div class="insta-post">
-<!-- Place <div> tag where you want the feed to appear -->
-	<div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
-</div>
-
-
-
-
-
   <!-- ======= Footer ======= -->
   <footer id="footer" style="background-image: url('assets/img/earth-11595_1920.jpg');">
 
@@ -273,8 +257,7 @@
 			  <br>
 			<div  ><img id="footervit" src="assets/img/vitbwhite.png"  alt="VIT Bhopal Logo"></div>
 		
-            <h6>ABOUT VIT BHOPAL</h6>  
-			<p>	VIT Bhopal University, located at the Bhopal-Indore highway, an arterial street connecting the two most lovely and cleanest towns of India is a place where information meets motivation. VIT Bhopal University imparts futuristic technical education and inculcate high patterns of discipline through dedicated faculty, who set global standards, making students technologically advanced and ethically strong, who in turn enhance the quality of life of the human race.</p>
+            <p>	<h6>ABOUT VIT BHOPAL</h6>  VIT Bhopal University, located at the Bhopal-Indore highway, an arterial street connecting the two most lovely and cleanest towns of India is a place where information meets motivation. VIT Bhopal University imparts futuristic technical education and inculcate high patterns of discipline through dedicated faculty, who set global standards, making students technologically advanced and ethically strong, who in turn enhance the quality of life of the human race.</p>
           </div>
         </div>
 
@@ -290,8 +273,11 @@
         &copy; Copyright <strong><span>ANTERiX</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-    
-        Designed by <a href="#">Software Development Cell, Club ANTERiX</a>
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/valera-free-bootstrap-theme/ -->
+        Designed by <a href="https://bootstrapmade.com/">SDC, Club ANTERiX</a>
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -342,13 +328,6 @@
     }, 1000);
     </script>
 
-<script type="text/javascript">
-	/* curator-feed-default-feed-layout */
-	(function(){
-	var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
-	i.src = "https://cdn.curator.io/published/ef53bb9b-08a0-4463-babf-246a19ee4a02.js";
-	e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
-	})();
-	</script>
+</body>
 
 </html>
