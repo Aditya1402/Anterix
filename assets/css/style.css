@@ -1967,6 +1967,10 @@ section {
 
   }
 }
-
+.carousel{
+  width: 85%;
+  margin-left: 7%;
+  margin-bottom: 10%;
+}
 
 
