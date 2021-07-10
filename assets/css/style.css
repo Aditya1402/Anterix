@@ -1942,6 +1942,11 @@ section {
   align-items: center;
 }
 
+#carousel{
+  width: 70%;
+  margin-left: 17%;
+  margin-bottom: 10%;
+}
 @media (min-width: 320px) and (max-width:899.98px){
   #footervit {
     width:35%;
@@ -1966,11 +1971,10 @@ section {
     padding: 5% 0%;
 
   }
-}
-.carousel{
-  width: 85%;
-  margin-left: 7%;
-  margin-bottom: 10%;
+  #carousel{
+    width: 100%;
+    margin-left: 0%;
+  }
 }
 
 
