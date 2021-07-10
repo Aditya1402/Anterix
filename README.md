@@ -8,4 +8,4 @@ every branch to dive deep into the subject whether it may be coding, electronics
 aerodynamics and any other mechanical work.
 
 Hosted on Github Pages:
-https://github.com/NikhilKD/Anterix
+https://nikhilkd.github.io/Anterix/index.html
