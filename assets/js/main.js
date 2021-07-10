@@ -301,3 +301,6 @@ function saveContactInfo(name, email, subject, message){
 function send(){
   document.getElementById('send').style.display = 'flex';
 }
+
+
+
